@@ -1,0 +1,18 @@
+.login_page-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.main_box-login {
+  max-width: 50rem;
+  width: 50rem;
+  height: 37rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #c03a2b63;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
