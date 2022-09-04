@@ -9,3 +9,29 @@
 html {
   font-size: 62.5%;
 }
+
+.main_app-body {
+  display: flex;
+  justify-content: center;
+}
+
+.main_app-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+  border: 0.2rem solid #c03a2b63;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  padding: 1rem 1rem;
+  width: 50rem;
+  height: auto;
+}
+
+.textP {
+  font-family: sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}

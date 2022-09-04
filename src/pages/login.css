@@ -16,3 +16,37 @@
   justify-content: flex-start;
   align-items: center;
 }
+
+.textInputLogin {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.inputLogin {
+  border: none;
+  outline: none;
+  padding-top: 4rem;
+  border-bottom: 0.2rem solid #c0392b;
+  width: 30rem;
+  font-size: 2rem;
+}
+
+.buttonLogin {
+  width: 15rem;
+  height: 4rem;
+
+  outline: none;
+  border: none;
+  color: white;
+
+  background: linear-gradient(to right, #c0392b, #8e44ad);
+
+  margin-top: 6rem;
+  cursor: pointer;
+  border-radius: 0.7rem;
+}
+
+.buttonLogin:hover {
+  background: linear-gradient(to right, #912418, #7e329e);
+}

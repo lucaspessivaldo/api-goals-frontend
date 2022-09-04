@@ -1,0 +1,36 @@
+.input-creategoal {
+  border: 1px solid rgba(250, 59, 59, 0.74);
+  border-radius: 0.5rem;
+  width: 30rem;
+  height: 5rem;
+  margin-right: 1rem;
+  outline: none;
+
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.button-creategoal {
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background: linear-gradient(to right, #c0392b, #8e44ad);
+
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.button-creategoal:hover {
+  background: linear-gradient(to right, #912418, #7e329e);
+}
+
+.button-creategoal:active {
+  background: linear-gradient(to right, #551109, #4d1466);
+}
+
+.container-creategoal {
+  display: flex;
+}

@@ -17,13 +17,13 @@
   align-items: center;
 }
 
-p {
+.textInputRegister {
   font-size: 4rem;
   font-weight: bold;
   margin: 2rem 0;
 }
 
-input {
+.inputRegister {
   border: none;
   outline: none;
   padding-top: 4rem;
@@ -32,7 +32,7 @@ input {
   font-size: 2rem;
 }
 
-button {
+.buttonRegister {
   width: 15rem;
   height: 4rem;
 
@@ -47,6 +47,6 @@ button {
   border-radius: 0.7rem;
 }
 
-button:hover {
+.buttonRegister:hover {
   background: linear-gradient(to right, #912418, #7e329e);
 }
